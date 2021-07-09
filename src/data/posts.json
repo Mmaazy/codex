@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Frank Ltarnam",
+        "designation": "CEO",
+        "image": "images/darlene-chabrat.jpg"
+    },
+
+    {
+        "name": "Bob Shefly",
+        "designation": "UI/UX designer",
+        "image": "images/david-campion.jpg"
+    },
+
+    {
+        "name": "Jason Stewars",
+        "designation": "COO",
+        "image": "images/gaetan-houssin.jpg"
+    },
+
+    {
+        "name": "Sabrina Rachel",
+        "designation": "Marketing",
+        "image": "images/jerome-boudot.jpg"
+    },
+    
+    {
+        "name": "Marrisa Lawre",
+        "designation": "Support",
+        "image": "images/jerome-mahuet.jpg"
+    },
+
+    {
+        "name": "Romen Regard",
+        "designation": "UI/UX designer",
+        "image": "images/tania-ferreira.jpg"
+    },
+
+    {
+        "name": "Romen Regard",
+        "designation": "UI/UX designer",
+        "image": "images/romane-regad.jpg"
+    }
+]
+
