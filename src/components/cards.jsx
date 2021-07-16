@@ -1,11 +1,16 @@
 import React from "react";
-import { Card, Container, Row, Col, Button } from "react-bootstrap";
-// import CardImg from "../../public/images/happy-face.svg"
+import { Card, Container, Row, Col} from "react-bootstrap";
 import Post from "../data/posts.json";
-import ModalVertical from "./modal";
+import { useEffect} from "react";
+import { FaTrash } from "react-icons/fa";
+
 
 const Cards = (props) => {
-  const data = "My name is Maaz";
+
+  useEffect(()=>{
+    
+  });
+
   return (
     <>
       <Container>
@@ -13,27 +18,23 @@ const Cards = (props) => {
           {Post.map((postDetail, index) => (
             <Col lg="2" className="mt-4" key={index}>
               <Card>
-                {/* <Card.Img variant="top" src="../../images/tania-ferreira.jpg" /> */}
-                <Card.Body>
-                  <Card.Img variant="top" src={postDetail.image} />
-
-                  <Card.Text className="text-center">
+                  <Card.Img variant="top" src={postDetail.image}/>
+                  <Card.Text className="text-center mt-2">
                     {postDetail.name}
                   </Card.Text>
-                  <Card.Text className="text-center">
+                  <Card.Text className="text-center mb-2">
                     {postDetail.designation}
                   </Card.Text>
-                </Card.Body>
+               
               </Card>
             </Col>
           ))}
         </Row>
         <Row>
-          <Button onClick={()=>props.Parenfunc(data)}>
-            Click me
-          </Button>
         </Row>
       </Container>
+
+     
     </>
   );
 };

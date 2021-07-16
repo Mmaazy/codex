@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 const ModalVertical = (props) => {
 
   const [name, setName] = useState('');
-  const [uName, setuName] = useState('');
+  //const [uName, setuName] = useState('');
   const [designation, setDesignation] = useState('');
-  const [uDesignation, setuDesignation] = useState('');
+  //const [uDesignation, setuDesignation] = useState('');
   
   useEffect(()=>{
     
@@ -23,8 +23,8 @@ const ModalVertical = (props) => {
   } 
   
   const handleAddUser = () =>{
-     setuName(name);
-     setuDesignation(designation);
+     //setuName(name);
+     //setuDesignation(designation);
   };
 
 
@@ -48,7 +48,7 @@ const ModalVertical = (props) => {
             />
           </Col>
 
-          <Card.Body>
+        
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Name</Form.Label>
@@ -69,7 +69,7 @@ const ModalVertical = (props) => {
                 />
               </Form.Group>
             </Form>
-          </Card.Body>
+          
         </Card>
       </Modal.Body>
     

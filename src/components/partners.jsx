@@ -4,14 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const PartnersLogo = () => {
   return (
     <>
-      <div className="container-fluid mt-5">
+      <div className="container mt-5">
         <h1
           style={{ color: "#252584" }}
           className="d-flex flex-row justify-content-center"
         >
           We've worked with
         </h1>
-        <div className="d-flex flex-row justify-content-between mt-5">
+        <div className="d-flex flex-row justify-content-between mt-3">
           <div className="p-2">
             <img src="images/apple.png" alt="" />
           </div>
