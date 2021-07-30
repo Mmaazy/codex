@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-1 pt-2">
-              <img src="images/logo.png"/>
+              <img src="images/logo.png" alt=""/>
             </div>
             <div className="col-md-3 pt-4 ml-3">
               <h3 style={{ color: "white" }}>Easy work</h3>

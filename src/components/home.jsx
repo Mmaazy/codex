@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Form, FormControl } from "react-bootstrap";
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -11,11 +12,10 @@ const Home = () => {
               <img src="./images/logo.png" alt="" />
             </Navbar.Brand>
             <Nav className="mr-auto">
-              <Nav.Link href="#home" style={{ color: "white" }}>Home</Nav.Link>
-              <Nav.Link href="#features" style={{ color: "white" }}>About Us</Nav.Link>
-              <Nav.Link href="#pricing" style={{ color: "white" }}>Services</Nav.Link>
-              <Nav.Link href="#pricing" style={{ color: "white" }}>Pricing</Nav.Link>
-              <Nav.Link href="#pricing" style={{ color: "white" }}>Careers</Nav.Link>
+              <Link to="" style={{ color: "white" }} className="ml-1">Home</Link>
+              <Link to="/graph" style={{ color: "white" }} className="ml-4">Graph</Link>
+              <Link to="/jsondata" style={{ color: "white" }} className="ml-4">Pictures</Link>
+              <Link to="/tracker" style={{ color: "white" }} className="ml-4">Tracker</Link>
             </Nav>
             <Form inline>
               <FormControl
@@ -41,7 +41,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-md-6 mt-5">
-              <img src="images/banner.png" />
+              <img src="images/banner.png" alt="" />
             </div>
           </div>
         </div>
